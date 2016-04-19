@@ -1,2 +1,3 @@
-# nsp-json-to-checkstyle-xml
-Convert NSP JSON output into checkstyle XML
+# NSP JSON to Checkstyle XML
+
+Convert the JSON output format of NSP into checkstyle-ish XML.

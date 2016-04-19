@@ -1,0 +1,29 @@
+{
+  "name": "nsp-json-to-checkstyle-xml",
+  "version": "1.0.0",
+  "description": "Convert NSP JSON output into checkstyle XML",
+  "author": "Adam Boxall",
+  "license": "ISC",
+  "homepage": "https://github.com/AdamBoxall/nsp-json-to-checkstyle-xml#readme",
+  "keywords": ["nsp", "security", "checkstyle"],
+  "main": "nsp-json-to-checkstyle-xml.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "bin": {
+    "nsp-json-to-checkstyle-xml": "./stream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamBoxall/nsp-json-to-checkstyle-xml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdamBoxall/nsp-json-to-checkstyle-xml/issues"
+  },
+  "dependencies": {
+    "checkstyle-formatter": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}

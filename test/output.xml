@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="is-my-json-valid@2.12.2">
+<error line="" column="" severity="warning" message="Regular Expression Denial of Service - https://nodesecurity.io/advisories/76" />
+</file>
+<file name="hawk@3.1.0">
+<error line="" column="" severity="warning" message="Regular Expression Denial of Service - https://nodesecurity.io/advisories/77" />
+</file>
+<file name="node-uuid@1.4.3">
+<error line="" column="" severity="warning" message="Insecure Entropy Source - Math.random() - https://nodesecurity.io/advisories/93" />
+</file>
+<file name="moment@2.10.6">
+<error line="" column="" severity="warning" message="Regular Expression Denial of Service - https://nodesecurity.io/advisories/55" />
+</file>
+</checkstyle>
